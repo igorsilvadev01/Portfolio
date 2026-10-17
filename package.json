@@ -1,0 +1,9 @@
+{
+  "name": "portfolio-igor-silva",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio profissional de Igor Fernando Oliveira da Silva",
+  "scripts": {
+    "dev": "npx --yes serve dist -l 5173"
+  }
+}

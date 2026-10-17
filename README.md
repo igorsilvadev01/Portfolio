@@ -16,7 +16,7 @@ Portfólio profissional de Igor Fernando Oliveira da Silva, desenvolvido como um
 Os arquivos publicados ficam em `dist/`. Use qualquer servidor HTTP estático, por exemplo:
 
 ```powershell
-npx serve dist
+npm run dev
 ```
 
 Abrir o arquivo diretamente também funciona, mas um servidor local representa melhor a hospedagem final.
