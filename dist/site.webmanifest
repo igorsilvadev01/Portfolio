@@ -1,0 +1,16 @@
+{
+  "name": "Igor Silva — Portfólio",
+  "short_name": "Igor Silva",
+  "description": "Portfólio profissional de Igor Silva, desenvolvedor Full Stack.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101211",
+  "theme_color": "#101211",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

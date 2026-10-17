@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://igor-silva-portfolio.igorkejo344.chatgpt.site/sitemap.xml

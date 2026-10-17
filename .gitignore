@@ -1,0 +1,11 @@
+# Local visual-QA artifacts
+.qa*/
+qa-*.png
+
+# Local deployment bundles
+*.tar.gz
+
+# Common local files
+.DS_Store
+Thumbs.db
+
