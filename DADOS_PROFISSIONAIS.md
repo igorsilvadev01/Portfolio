@@ -51,6 +51,7 @@ Também possui experiência profissional em atendimento e retenção no setor de
 ### 1. Plataforma de Privacidade — projeto real anonimizado
 
 - **Repositório:** https://github.com/igorsilvadev01/Projeto-Site-Institucional
+- **Demonstração:** https://igorsilvadev01.github.io/Projeto-Site-Institucional/
 - **Contexto:** versão pública e anonimizada do primeiro projeto conquistado para um cliente.
 - **Stack:** Next.js 16, React 19, JavaScript, CSS, Node.js 24, SQLite, Nodemailer, otplib, QR Code e Playwright.
 - **Principais recursos:** site institucional, avaliação de terceiros, relatórios, plano de ação, anexos, autenticação, confirmação de e-mail, recuperação de senha, MFA, perfis de acesso, área administrativa, newsletter e rotinas operacionais.
@@ -61,6 +62,7 @@ Também possui experiência profissional em atendimento e retenção no setor de
 ### 2. LexIA — análise inteligente de normas jurídicas
 
 - **Repositório:** https://github.com/igorsilvadev01/LexIA---An-lise-Inteligente-de-Normas-Jur-dicas
+- **Demonstração:** https://igorsilvadev01.github.io/LexIA---An-lise-Inteligente-de-Normas-Jur-dicas/
 - **Objetivo:** transformar textos legais em dados estruturados e auditáveis por meio de ingestão, divisão por artigos, busca híbrida e extração de campos jurídicos.
 - **Stack:** Python, FastAPI, Pydantic, React 19, TypeScript, Vite, Vitest, Pytest e Ruff.
 - **Engenharia:** BM25, TF-IDF/cosseno, Reciprocal Rank Fusion, extração por regras ou LLM, prompts versionados, golden set e métricas de avaliação.
@@ -71,6 +73,7 @@ Também possui experiência profissional em atendimento e retenção no setor de
 ### 3. Codiva — plataforma de estudos de programação
 
 - **Repositório:** https://github.com/igorsilvadev01/PlataformaDeEstudos
+- **Demonstração:** https://igorsilvadev01.github.io/PlataformaDeEstudos/
 - **Objetivo:** plataforma educacional em português com 96 lições — 24 de HTML/CSS, 24 de JavaScript, 24 de Python e 24 de lógica.
 - **Stack:** Next.js 16, React 19, JavaScript, Pyodide/WebAssembly e Node Test Runner.
 - **Recursos:** editor de prática, execução isolada de JavaScript em Web Worker, Python real no navegador, acompanhamento de progresso, XP, sequência diária, metas e exportação estática.
@@ -80,6 +83,7 @@ Também possui experiência profissional em atendimento e retenção no setor de
 ### 4. SPADONI — plataforma digital para pizzaria
 
 - **Repositório:** https://github.com/igorsilvadev01/Projeto-Pizzaria
+- **Demonstração:** https://igorsilvadev01.github.io/Projeto-Pizzaria/
 - **Objetivo:** experiência de comércio para pizzaria com cardápio, montagem personalizada, sacola, conta do cliente, acompanhamento e administração.
 - **Stack:** Next.js 16, React 19, JavaScript, CSS, Node.js 24 e SQLite.
 - **Recursos:** catálogo e busca, favoritos, preços calculados no servidor, combinações de sabores, bordas e adicionais, pedidos idempotentes, administração de catálogo e clientes, exportação CSV e integração opcional com Mercado Pago.
@@ -89,6 +93,7 @@ Também possui experiência profissional em atendimento e retenção no setor de
 ### 5. Calculadora Científica em Java Swing
 
 - **Repositório:** https://github.com/igorsilvadev01/-calculadora-java-swing
+- **Demonstração web:** https://igorsilvadev01.github.io/-calculadora-java-swing/
 - **Stack:** Java 17+ e Swing.
 - **Recursos:** operações básicas e científicas, constantes, fatorial, memória, histórico, teclado e suporte a ponto ou vírgula decimal.
 - **Valor profissional:** demonstra fundamentos de Java, eventos, interface desktop e organização de lógica matemática.
