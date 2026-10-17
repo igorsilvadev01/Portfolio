@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://igor-silva-portfolio.igorkejo344.chatgpt.site/sitemap.xml
+Sitemap: https://igorsilvadev01.github.io/Portfolio/sitemap.xml

@@ -35,3 +35,9 @@ dist/
 ```
 
 O conteúdo editorial consolidado está em `DADOS_PROFISSIONAIS.md`.
+
+## Site público
+
+O portfólio é publicado automaticamente pelo GitHub Pages sempre que os arquivos de `dist/` são atualizados na branch `main`:
+
+<https://igorsilvadev01.github.io/Portfolio/>
