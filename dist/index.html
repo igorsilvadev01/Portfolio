@@ -30,7 +30,7 @@
       document.documentElement.classList.add("js");
       try { document.documentElement.dataset.theme = localStorage.getItem("portfolio-theme") === "dark" ? "dark" : "light"; } catch { /* Use the default light appearance. */ }
     </script>
-    <link rel="stylesheet" href="./styles.css?v=20261030-theme-complete" />
+    <link rel="stylesheet" href="./styles.css?v=20261030-projects" />
     <title>Igor Silva — Desenvolvedor Full Stack</title>
     <script type="application/ld+json">
       {
@@ -185,6 +185,28 @@
           </div>
         </article>
 
+        <article class="featured-project reveal" id="projeto-firma">
+          <a class="project-media office-media" href="https://igorsilvadev01.github.io/Escrit-rio-de-IAs/" target="_blank" rel="noopener noreferrer" aria-label="Explorar demonstração do Escritório de IAs (nova aba)">
+            <div class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>firma / demonstração interativa</span></div>
+            <img src="./assets/firma-office.png" alt="Escritório virtual 2D da Firma, com setores e personagens em pixel art" width="1366" height="900" loading="lazy" />
+          </a>
+          <div class="project-copy">
+            <div class="project-kicker"><span>Projeto 02</span><span>Interface interativa</span></div>
+            <h3>Firma — Escritório de IAs</h3>
+            <p class="project-lead">Um escritório virtual em 2D que reúne equipe, tarefas e fluxos de trabalho em uma interface navegável. O cenário e os personagens são desenhados em Canvas, com setores para planejar, desenvolver, testar e preparar publicações.</p>
+            <dl class="project-details">
+              <div><dt>Construção</dt><dd>JavaScript, Canvas 2D, HTML e CSS, com servidor Node.js na versão completa.</dd></div>
+              <div><dt>Explore online</dt><dd>Caminhe pelo cenário, conheça os personagens e acompanhe o painel com dados de exemplo e simulação local.</dd></div>
+              <div><dt>Versão completa</dt><dd>Autenticação, arquivos, terminal e integrações reais de IA dependem do servidor e da configuração do proprietário.</dd></div>
+            </dl>
+            <div class="tag-list"><span>Canvas 2D</span><span>JavaScript</span><span>Node.js</span><span>Simulação</span></div>
+            <div class="project-actions">
+              <a class="project-demo" href="https://igorsilvadev01.github.io/Escrit-rio-de-IAs/" target="_blank" rel="noopener noreferrer">Explorar demonstração <span aria-hidden="true">↗</span></a>
+              <a class="project-source" href="https://github.com/igorsilvadev01/Escrit-rio-de-IAs" target="_blank" rel="noopener noreferrer">Código e versão completa <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
         <article class="featured-project featured-project-reverse reveal">
           <a
             class="project-media lexia-media"
@@ -204,7 +226,7 @@
 
           </a>
           <div class="project-copy">
-            <div class="project-kicker"><span>Projeto 02</span><span>IA aplicada</span></div>
+            <div class="project-kicker"><span>Projeto 03</span><span>IA aplicada</span></div>
             <h3>LexIA</h3>
             <p class="project-lead">
               Pipeline auditável para ingerir normas, localizar trechos por busca híbrida e extrair campos
@@ -237,7 +259,7 @@
               </div>
             </a>
             <div class="project-card-copy">
-              <p>03 / Educação</p>
+              <p>04 / Educação</p>
               <h3>Codiva</h3>
               <p>Plataforma de estudos com 96 lições, editor prático e execução isolada de JavaScript e Python real no navegador.</p>
               <ul><li>Next.js 16 + React 19</li><li>Pyodide + Web Workers</li><li>Progresso, XP e testes</li></ul>
@@ -254,7 +276,7 @@
                 <img src="./assets/spadoni-margherita.webp" alt="Pizza margherita usada na interface do projeto SPADONI" width="800" height="800" loading="lazy" />
             </a>
             <div class="project-card-copy">
-              <p>04 / Comércio</p>
+              <p>05 / Comércio</p>
               <h3>SPADONI</h3>
               <p>Experiência digital para pizzaria com montador, sacola, conta do cliente, pedidos e painel administrativo.</p>
               <ul><li>Regras de preço no servidor</li><li>SQLite + autenticação</li><li>Pedidos idempotentes</li></ul>
@@ -265,7 +287,23 @@
             </div>
           </article>
 
-          <article class="project-card project-card-wide reveal">
+          <article class="project-card reveal" id="projeto-porsche">
+            <a class="project-card-visual dashboard-visual" href="https://igorsilvadev01.github.io/Chat-GPT-e-Canvas/" target="_blank" rel="noopener noreferrer" aria-label="Abrir dashboard Porsche Sales Intelligence (nova aba)">
+              <img src="./assets/porsche-dashboard.png" alt="Dashboard Porsche com filtros de vendas, indicadores e gráficos comerciais" width="1265" height="712" loading="lazy" />
+            </a>
+            <div class="project-card-copy">
+              <p>06 / Dados e visualização</p>
+              <h3>Porsche Sales Intelligence</h3>
+              <p>Dashboard educacional com 100 registros sanitizados, indicadores comerciais e gráficos de receita por modelo, pagamentos e vendas por estado.</p>
+              <ul><li>Filtros combináveis e busca</li><li>Exportação CSV do recorte</li><li>HTML, CSS e JavaScript</li></ul>
+              <div class="project-actions">
+                <a class="project-demo" href="https://igorsilvadev01.github.io/Chat-GPT-e-Canvas/" target="_blank" rel="noopener noreferrer">Abrir dashboard <span aria-hidden="true">↗</span></a>
+                <a class="project-source" href="https://github.com/igorsilvadev01/Chat-GPT-e-Canvas" target="_blank" rel="noopener noreferrer">Ver código <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
             <a class="project-card-visual calculator-visual" href="https://igorsilvadev01.github.io/-calculadora-java-swing/" target="_blank" rel="noopener noreferrer" aria-label="Experimentar a versão web da Calculadora Científica (nova aba)">
               <div class="calculator-shell">
                 <p>sin(45) + √144</p><strong>12.7071</strong>
@@ -274,7 +312,7 @@
               <div class="java-label">JAVA<br /><strong>17+</strong></div>
             </a>
             <div class="project-card-copy">
-              <p>05 / Desktop</p>
+              <p>07 / Desktop</p>
               <h3>Calculadora Científica</h3>
               <p>Aplicação em Java Swing com operações científicas, memória, histórico, atalhos de teclado e suporte decimal localizado.</p>
               <ul><li>Java Swing</li><li>Eventos e estado</li><li>Lógica matemática</li></ul>
@@ -284,6 +322,11 @@
               </div>
             </div>
           </article>
+        </div>
+
+        <div class="study-link reveal">
+          <div><p class="section-index">Estudos e fundamentos</p><h3>Python com Git e GitHub</h3><p>Exercícios de lógica, manipulação de strings, condicionais e operações matemáticas, desenvolvidos no contexto de estudos da DIO.</p></div>
+          <a href="https://github.com/igorsilvadev01/Aula-DIO-GIT-HUB-PYTHON" target="_blank" rel="noopener noreferrer">Consultar exercícios <span aria-hidden="true">↗</span></a>
         </div>
 
         <div class="all-work reveal">
@@ -476,6 +519,6 @@
     </footer>
 
     <div class="toast" role="status" aria-live="polite">E-mail copiado.</div>
-    <script src="./script.js?v=20261030-theme-complete" defer></script>
+    <script src="./script.js?v=20261030-projects" defer></script>
   </body>
 </html>

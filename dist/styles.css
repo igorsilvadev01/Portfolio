@@ -148,7 +148,7 @@ h3 { font-size: 21px; font-weight: 600; letter-spacing: -.02em; margin-bottom: 1
 .project-demo { color: var(--accent); }
 .project-source { color: var(--muted); }
 .project-actions a:hover, .profile-caption a:hover { text-decoration: underline; text-underline-offset: 4px; }
-.project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.project-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
 .project-card { overflow: hidden; border: 1px solid var(--line); border-radius: 5px; background: var(--surface); display: flex; flex-direction: column; }
 .project-card-visual { height: 180px; overflow: hidden; display: flex; align-items: center; justify-content: center; padding: 20px; }
 .project-card-copy { padding: 24px; display: flex; flex-direction: column; flex: 1; }
@@ -279,6 +279,13 @@ h3 { font-size: 21px; font-weight: 600; letter-spacing: -.02em; margin-bottom: 1
 .featured-project { border-radius: 0; }
 .skills .skill-group li { background: var(--bg); }
 .contact { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 48px; margin-top: 20px; margin-bottom: 60px; }
+.dashboard-visual { background: #13151a; padding: 0; }
+.dashboard-visual img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.study-link { display: flex; align-items: center; justify-content: space-between; gap: 32px; padding: 30px; margin-top: 28px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); }
+.study-link .section-index { margin-bottom: 10px; }
+.study-link h3 { font-size: 18px; }
+.study-link p:last-child { font-size: 13px; color: var(--muted); max-width: 650px; margin-bottom: 0; }
+.study-link > a { color: var(--accent); font-size: 12px; white-space: nowrap; }
 @media (max-width: 1000px) {
   .hero-grid { gap: 40px; grid-template-columns: 1fr 240px; }
       .profile-photo { height: 260px; }
@@ -330,6 +337,7 @@ h3 { font-size: 21px; font-weight: 600; letter-spacing: -.02em; margin-bottom: 1
   .project-card-wide { display: flex; grid-column: auto; }
   .project-card-wide .project-card-visual, .project-card-visual { min-height: 0; height: 190px; }
   .all-work { flex-direction: column; gap: 6px; }
+  .study-link { flex-direction: column; align-items: flex-start; gap: 18px; padding: 22px; }
   .timeline-item { grid-template-columns: 1fr; gap: 10px; }
   .timeline-period { margin: 0; }
   .certifications { grid-template-columns: 1fr; gap: 10px; }

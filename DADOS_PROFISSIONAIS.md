@@ -261,3 +261,10 @@ Fonte: perfil profissional fornecido pelo autor em `Profile.pdf`, comparado aos 
 - O perfil confirma o certificado **RH 4.0: Da cultura organizacional aos indicadores e dados**, cuja data de 2023 e emissor Leveduca já constam neste levantamento.
 - Formação Gran: setembro/2025–setembro/2028, em andamento, conforme perfil e currículos. Cebrac: maio/2024–maio/2025, conforme currículos e confirmação do autor.
 - A entrada de experiência sem nome com apenas agosto/2026 e a formação DIO de outubro/2026 sem título específico foram omitidas por falta de identificação suficiente. Mantido o início do trabalho autônomo em 2024, documentado nos currículos.
+
+## Projetos publicados e incluídos no portfólio em 30 de outubro de 2026
+
+- **Firma — Escritório de IAs:** repositório `igorsilvadev01/Escrit-rio-de-IAs`; demonstração pública em https://igorsilvadev01.github.io/Escrit-rio-de-IAs/. Canvas 2D, JavaScript, HTML/CSS e backend Node.js. A demonstração permite explorar o cenário e acompanhar simulação local com dados de exemplo. Não oferece autenticação, arquivos privados, terminal ou chamadas reais de IA; esses recursos dependem do servidor da versão completa.
+- **Porsche Sales Intelligence:** repositório `igorsilvadev01/Chat-GPT-e-Canvas`; dashboard em https://igorsilvadev01.github.io/Chat-GPT-e-Canvas/. Projeto educacional DIO, sem afiliação à Porsche AG. 100 registros sanitizados, filtros, busca, indicadores, gráficos e exportação CSV, executados no navegador.
+- **Estudos de Python com Git e GitHub:** `igorsilvadev01/Aula-DIO-GIT-HUB-PYTHON`, incluído como exercícios com acesso ao código.
+- Projetos de candidatura automática e busca automatizada de vagas excluídos por orientação expressa do autor.
