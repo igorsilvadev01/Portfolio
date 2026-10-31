@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#101211" />
+    <meta name="theme-color" content="#10203c" />
     <meta
       name="description"
       content="Portfólio de Igor Silva, desenvolvedor Full Stack em São Paulo. Projetos com Next.js, React, Python, FastAPI, IA, segurança e testes."
@@ -15,7 +15,7 @@
     <meta property="og:title" content="Igor Silva — Desenvolvedor Full Stack" />
     <meta
       property="og:description"
-      content="Engenharia que vira produto: aplicações full stack, IA aplicada, segurança e experiências digitais."
+      content="Igor Silva, desenvolvedor Full Stack e estudante de ADS em busca de uma oportunidade em desenvolvimento de software. Conheça minha trajetória e meus projetos."
     />
     <meta property="og:url" content="https://igorsilvadev01.github.io/Portfolio/" />
     <meta
@@ -26,8 +26,11 @@
     <link rel="canonical" href="https://igorsilvadev01.github.io/Portfolio/" />
     <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="./site.webmanifest" />
-    <script>document.documentElement.classList.add("js");</script>
-    <link rel="stylesheet" href="./styles.css" />
+    <script>
+      document.documentElement.classList.add("js");
+      try { document.documentElement.dataset.theme = localStorage.getItem("portfolio-theme") === "dark" ? "dark" : "light"; } catch { /* Use the default light appearance. */ }
+    </script>
+    <link rel="stylesheet" href="./styles.css?v=20261030-theme-complete" />
     <title>Igor Silva — Desenvolvedor Full Stack</title>
     <script type="application/ld+json">
       {
@@ -71,7 +74,7 @@
     <header class="site-header" data-header>
       <a class="brand" href="#inicio" aria-label="Página inicial de Igor Silva">
         <span class="brand-mark">IS</span>
-        <span class="brand-copy">Igor Silva<small>Full Stack Developer</small></span>
+        <span class="brand-copy">Igor Silva<small>Desenvolvedor Full Stack</small></span>
       </a>
 
       <nav class="desktop-nav" aria-label="Navegação principal">
@@ -91,7 +94,7 @@
             <path d="M20.5 14.2A8.4 8.4 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z"></path>
           </svg>
         </button>
-        <a class="header-cta" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+        <a class="header-cta" href="#contato">Contato <span aria-hidden="true">↗</span></a>
         <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
           <span></span><span></span>
         </button>
@@ -107,89 +110,41 @@
     </header>
 
     <main id="conteudo">
+      <div class="hero-stage">
       <section class="hero section" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-meta" aria-hidden="true"><span class="edition-label">PORTFÓLIO PESSOAL / 2026</span><span>DESENVOLVIMENTO DE SOFTWARE <span class="meta-arrow">↘</span></span></div>
         <div class="hero-grid">
           <div class="hero-copy reveal">
-            <p class="eyebrow"><span></span> São Paulo, Brasil</p>
-            <h1 id="hero-title">
-              Engenharia que<br />
-              vira <em>produto.</em>
-            </h1>
-            <p class="hero-intro">
-              Sou Igor Silva, desenvolvedor Full Stack e estudante de ADS. Construo aplicações completas — da
-              interface à segurança, dos dados aos testes — com atenção ao problema real por trás do código.
-            </p>
+            <p class="eyebrow"><span></span> Em busca de uma oportunidade em tecnologia</p>
+            <h1 id="hero-title">Igor Silva<span class="name-period" aria-hidden="true">.</span><span class="hero-role">Desenvolvedor Full Stack</span></h1>
+            <p class="hero-intro">Sou desenvolvedor Full Stack freelancer e estudante de Análise e Desenvolvimento de Sistemas. Desenvolvo aplicações web e já realizei uma entrega para cliente. Busco integrar uma equipe de desenvolvimento, contribuir com minha experiência e continuar evoluindo na área.</p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#projetos">Explorar projetos <span aria-hidden="true">↓</span></a>
-              <a class="text-link" href="mailto:igor.silva.dev01@gmail.com">igor.silva.dev01@gmail.com <span aria-hidden="true">↗</span></a>
+              <a class="button button-primary" href="#projetos">Conhecer meus projetos <span aria-hidden="true">↓</span></a>
+              <a class="button button-secondary" href="https://www.linkedin.com/in/igorsilvadev01" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
             </div>
+            <div class="hero-details"><span>São Paulo, SP</span><span>Graduação em ADS em andamento</span></div>
           </div>
-
-          <div class="hero-visual reveal" data-delay="1" aria-label="Identidade profissional de Igor Silva">
-            <div class="identity-card">
-              <div class="identity-grid" aria-hidden="true"></div>
-              <div class="identity-top">
-                <span>Igor.Silva</span>
-                <span>Portfólio / 26</span>
-              </div>
-              <div class="identity-mark" aria-hidden="true">
-                <span>I</span><span>S</span>
-              </div>
-              <div class="identity-bottom">
-                <p>Desenvolvedor<br /><strong>Full Stack</strong></p>
-                <ul aria-label="Áreas de atuação">
-                  <li>Software</li>
-                  <li>IA aplicada</li>
-                  <li>Segurança</li>
-                </ul>
-              </div>
-            </div>
-            <div class="code-note" aria-hidden="true">
-              <span class="code-note-dot"></span>
-              <code>status: construindo</code>
-            </div>
-          </div>
+          <aside class="profile-card reveal" data-delay="1" aria-label="Perfil de Igor Silva">
+            <div class="portrait-frame"><img class="profile-photo" src="./assets/igor-silva.png" alt="Foto de Igor Silva" width="1254" height="1254" fetchpriority="high" /><span class="portrait-index" aria-hidden="true">IGOR SILVA / DESENVOLVEDOR</span></div>
+            <div class="profile-caption"><strong>Aprendizado aplicado à prática.</strong><p>Interfaces, APIs, dados e testes nos projetos que desenvolvo.</p><a href="https://github.com/igorsilvadev01" target="_blank" rel="noopener noreferrer">github.com/igorsilvadev01 <span aria-hidden="true">↗</span></a></div>
+          </aside>
         </div>
-
-        <div class="hero-stats reveal" data-delay="2" aria-label="Resumo em números">
-          <div><strong>05</strong><span>projetos selecionados</span></div>
-          <div><strong>127</strong><span>testes no LexIA</span></div>
-          <div><strong>01</strong><span>entrega real para cliente</span></div>
-          <div class="hero-stack"><span>Next.js</span><span>React</span><span>Python</span><span>Java</span></div>
+        <div class="profile-summary reveal" aria-label="Resumo profissional">
+          <div><span>Formação</span><strong>Análise e Desenvolvimento de Sistemas</strong><small>Gran Faculdade · 2025–2028</small></div>
+          <div><span>Atuação atual</span><strong>Desenvolvedor Full Stack freelancer</strong><small>Aplicações web · projeto entregue para cliente</small></div>
+          <div><span>Linguagens e tecnologias</span><strong>Java · Python · JavaScript · TypeScript</strong><small>HTML · CSS · React · Next.js · Node.js · FastAPI · SQLite · Git e GitHub</small></div>
         </div>
       </section>
 
-      <section class="statement section" aria-label="Proposta profissional">
-        <p class="section-index">01 / Abordagem</p>
-        <div class="statement-copy reveal">
-          <p>Não monto apenas telas.</p>
-          <h2>Conecto experiência, regras de negócio e engenharia para entregar produtos que podem ser usados, testados e explicados.</h2>
-        </div>
-        <div class="principles reveal" data-delay="1">
-          <article>
-            <span>01</span>
-            <h3>Clareza antes da complexidade</h3>
-            <p>Arquitetura e interface existem para tornar o problema mais simples, não para impressionar com ruído.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>Segurança desde o fluxo</h3>
-            <p>Autenticação, autorização, privacidade e limites operacionais entram no desenho — não no rodapé.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>Evidência, não promessa</h3>
-            <p>Testes, métricas, documentação e limitações claras sustentam cada caso apresentado.</p>
-          </article>
-        </div>
-      </section>
+      </div>
 
+      <div class="section-band">
       <section class="projects section" id="projetos" aria-labelledby="projects-title">
         <div class="section-heading reveal">
-          <p class="section-index">02 / Trabalho selecionado</p>
+          <p class="section-index">01 / Projetos</p>
           <div>
-            <h2 id="projects-title">Projetos com contexto,<br />decisão e resultado.</h2>
-            <p>Explore as demonstrações online de cada projeto ou consulte o código no GitHub. Os links abrem em uma nova aba.</p>
+            <h2 id="projects-title">Projetos que desenvolvi</h2>
+            <p>Uma seleção da minha experiência prática: o contexto de cada aplicação, as tecnologias utilizadas e o código disponível para consulta.</p>
           </div>
         </div>
 
@@ -218,9 +173,9 @@
               relatórios, áreas autenticadas e administração — publicada em uma versão segura para portfólio.
             </p>
             <dl class="project-details">
-              <div><dt>Desafio</dt><dd>Transformar serviços de governança e segurança em uma experiência clara, mensurável e operacional.</dd></div>
-              <div><dt>Construção</dt><dd>Next.js 16, React 19, Node.js, SQLite, SMTP, MFA e Playwright.</dd></div>
-              <div><dt>Evidência</dt><dd>51 testes de backend, 12 testes de navegador e versão pública anonimizada.</dd></div>
+              <div><dt>Minha atuação</dt><dd>Desenvolvimento da interface, autenticação, controle de acesso, relatórios e adaptação à hospedagem do cliente.</dd></div>
+              <div><dt>Tecnologias</dt><dd>Next.js 16, React 19, Node.js, SQLite, SMTP, MFA e Playwright.</dd></div>
+              <div><dt>Evidência</dt><dd>51 testes de backend e 12 de navegador registrados no projeto. Versão pública anonimizada.</dd></div>
             </dl>
             <div class="tag-list"><span>Full stack</span><span>Autenticação</span><span>Segurança</span><span>Testes E2E</span></div>
             <div class="project-actions">
@@ -246,7 +201,7 @@
               height="1200"
               loading="lazy"
             />
-            <div class="metric-sticker"><strong>0,972</strong><span>Macro-F1</span></div>
+
           </a>
           <div class="project-copy">
             <div class="project-kicker"><span>Projeto 02</span><span>IA aplicada</span></div>
@@ -256,8 +211,8 @@
               jurídicos por regras ou LLM — medindo o resultado contra um golden set.
             </p>
             <dl class="project-details">
-              <div><dt>Arquitetura</dt><dd>FastAPI, Pydantic, React, TypeScript, BM25, TF-IDF e RRF.</dd></div>
-              <div><dt>Qualidade</dt><dd>127 testes automatizados, 95% de cobertura no backend e quality gate.</dd></div>
+              <div><dt>Tecnologias</dt><dd>FastAPI, Pydantic, React, TypeScript, BM25, TF-IDF e RRF.</dd></div>
+              <div><dt>Qualidade</dt><dd>127 testes automatizados e 95% de cobertura no backend, conforme documentação do repositório.</dd></div>
               <div><dt>Resultado</dt><dd>Recall@5 de 1,000 e MRR de 0,903 em 12 consultas documentadas.</dd></div>
             </dl>
             <div class="tag-list"><span>Python</span><span>FastAPI</span><span>React + TS</span><span>LLMs</span></div>
@@ -332,99 +287,159 @@
         </div>
 
         <div class="all-work reveal">
-          <p>Quer examinar a implementação?</p>
+          <p>Outros projetos e estudos</p>
           <a href="https://github.com/igorsilvadev01?tab=repositories" target="_blank" rel="noreferrer">Todos os repositórios no GitHub <span aria-hidden="true">↗</span></a>
         </div>
       </section>
 
+      </div>
+
       <section class="journey section" id="trajetoria" aria-labelledby="journey-title">
         <div class="section-heading reveal">
-          <p class="section-index">03 / Trajetória</p>
+          <p class="section-index">02 / Experiência e formação</p>
           <div>
-            <h2 id="journey-title">Tecnologia com repertório<br />de pessoas e negócio.</h2>
-            <p>Uma carreira em construção, apoiada por experiência com clientes e prática constante em software.</p>
+            <h2 id="journey-title">Minha trajetória</h2>
+            <p>Atuo como desenvolvedor Full Stack freelancer, curso ADS e tenho formação técnica em manutenção de computadores e celulares. Minha trajetória também inclui experiência em suporte de redes, atendimento ao cliente e rotinas financeiras em telecomunicações.</p>
           </div>
         </div>
 
-        <div class="timeline">
-          <article class="timeline-item reveal">
-            <p class="timeline-period">Atual</p>
-            <div class="timeline-main"><span class="timeline-dot"></span><h3>Assistente de Retenção</h3><p>Alares Internet</p></div>
-            <p class="timeline-description">Comunicação, negociação, leitura de necessidades e resolução de problemas em um ambiente de telecomunicações.</p>
-          </article>
-          <article class="timeline-item reveal">
-            <p class="timeline-period">2026</p>
-            <div class="timeline-main"><span class="timeline-dot"></span><h3>Primeiro projeto para cliente</h3><p>Plataforma de privacidade e segurança</p></div>
-            <p class="timeline-description">Da organização do escopo à implementação full stack e adaptação à infraestrutura real de hospedagem.</p>
-          </article>
-          <article class="timeline-item reveal">
-            <p class="timeline-period">2025 — 2028</p>
-            <div class="timeline-main"><span class="timeline-dot"></span><h3>Análise e Desenvolvimento de Sistemas</h3><p>Gran Faculdade</p></div>
-            <p class="timeline-description">Formação em desenvolvimento, requisitos, bancos de dados, testes, segurança e integração entre tecnologia e negócios.</p>
-          </article>
-        </div>
+        <nav class="journey-nav" aria-label="Navegação da trajetória">
+          <a href="#experiencia">Experiência profissional <span aria-hidden="true">↓</span></a>
+          <a href="#formacao">Formação <span aria-hidden="true">↓</span></a>
+          <a href="#cursos">Cursos e certificações <span aria-hidden="true">↓</span></a>
+        </nav>
 
-        <div class="certifications reveal">
-          <div class="cert-heading"><p>Formação contínua</p><h3>Certificações</h3></div>
+        <section class="journey-block" id="experiencia" aria-labelledby="experience-title">
+          <h3 class="journey-subtitle" id="experience-title"><span aria-hidden="true">01</span> Experiência profissional</h3>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <p class="timeline-period">2024 — atual</p>
+              <div class="timeline-main"><h4>Desenvolvedor Full Stack freelancer</h4><p>Atuação autônoma</p></div>
+              <div class="timeline-description">
+                <p>Criação e manutenção de sites, aplicações web, automações e soluções técnicas com JavaScript, Python, Java e APIs, de acordo com as necessidades de cada projeto.</p>
+                <p>Entrega de plataforma de privacidade e governança para cliente, com interface responsiva, avaliação de terceiros, relatórios, autenticação, MFA e controle de acesso. Integração com SQLite e e-mail e adaptação do backend para PHP/SQLite em hospedagem compartilhada.</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <p class="timeline-period">fev/2024 — mar/2026</p>
+              <div class="timeline-main"><h4>Assistente de Retenção</h4><p>Alares Internet</p></div>
+              <div class="timeline-description">
+                <p>Atendimento ativo e receptivo a clientes em processo de cancelamento, com escuta ativa, diagnóstico das causas de insatisfação e negociação de alternativas conforme as políticas internas.</p>
+                <p>Registro das interações e acompanhamento dos acordos. Apoio à resolução de demandas técnicas urgentes, com acionamento de equipes de campo quando necessário.</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <p class="timeline-period">mai/2023 — mar/2024</p>
+              <div class="timeline-main"><h4>Assistente Financeiro</h4><p>Webby Internet</p></div>
+              <div class="timeline-description">
+                <p>Atendimento por telefone e canais digitais para tratar cobranças, pagamentos e faturas. Negociação e renegociação de valores, com foco na regularização e no relacionamento com o cliente.</p>
+                <p>Acompanhamento de solicitações até a resolução, monitoramento do histórico financeiro e organização de rotinas internas, com clareza nas orientações.</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <p class="timeline-period">fev/2022 — mai/2023</p>
+              <div class="timeline-main"><h4>Suporte ao Cliente — Redes e Internet</h4><p>Webby Internet</p></div>
+              <div class="timeline-description">
+                <p>Diagnóstico e resolução de falhas de conexão em redes cabeadas, fibra óptica e internet via rádio. Configuração de roteadores, redes e conversores de fibra, com testes de desempenho e identificação de sinal atenuado.</p>
+                <p>Uso de ferramentas técnicas e administrativas como UNM, Netnumens e ERP Voalle. Orientação aos clientes e aplicação de ajustes para restabelecer a estabilidade da conexão.</p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <p class="timeline-period">mai/2021 — dez/2021</p>
+              <div class="timeline-main"><h4>Encarregado de Setor de Bazar</h4><p>Grupo Muffato · Max Atacadista</p></div>
+              <div class="timeline-description">
+                <p>Gestão administrativa do setor, organização de processos, controle de estoque e acompanhamento de indicadores. Coordenação de equipe, treinamentos, alinhamentos diários e escalas de trabalho.</p>
+                <p>Organização da exposição de produtos, definição e atualização de preços e atendimento ao cliente, com foco na experiência de compra e no giro de mercadorias.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="journey-block education-block" id="formacao" aria-labelledby="education-title">
+          <h3 class="journey-subtitle" id="education-title"><span aria-hidden="true">02</span> Formação acadêmica e técnica</h3>
+          <div class="education-grid">
+            <article class="education-card">
+              <p class="education-type">Graduação · em andamento</p>
+              <h4>Análise e Desenvolvimento de Sistemas</h4>
+              <p class="education-school">Gran Faculdade</p>
+              <p class="education-period">set/2025 — set/2028 <span>Conclusão prevista</span></p>
+              <p>Formação em desenvolvimento de software, requisitos, bancos de dados, testes e segurança da informação.</p>
+            </article>
+            <article class="education-card">
+              <p class="education-type">Formação técnica · concluída</p>
+              <h4>Manutenção de Celulares e Computadores</h4>
+              <p class="education-school">Cebrac</p>
+              <p class="education-period">mai/2024 — mai/2025</p>
+              <p>Formação voltada à manutenção de celulares e computadores, complementando a experiência em suporte e hardware.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="journey-block certifications" id="cursos" aria-labelledby="courses-title">
+          <div class="cert-heading"><p>Aprendizado contínuo</p><h3 id="courses-title">Cursos e certificações</h3></div>
           <div class="cert-list">
-            <div><span>DIO</span><strong>Backend com Java & AWS</strong><time>2025</time></div>
-            <div><span>DIO</span><strong>Desafios de Código em Java</strong><time>2025</time></div>
-            <div><span>Mimo</span><strong>HTML</strong><time>2025</time></div>
-            <div><span>Akad</span><strong>Desenvolvimento Fullstack</strong><time>2025</time></div>
-            <div><span>DIO</span><strong>Princípios de Git e GitHub</strong><time>2025</time></div>
-            <div><span>Leveduca</span><strong>Informática e Banco de Dados</strong><time>2023</time></div>
+            <div><span>DIO</span><strong>Introdução ao Bootcamp CI&T — Backend com Java & AWS</strong><time datetime="2025">2025</time></div>
+            <div><span>DIO</span><strong>Resolvendo Desafios de Código em Java</strong><time datetime="2025">2025</time></div>
+            <div><span>DIO</span><strong>Princípios de Git e GitHub</strong><time datetime="2025">2025</time></div>
+            <div><span>Akad</span><strong>Introdução ao Desenvolvimento Fullstack com a Akad</strong><time datetime="2025">2025</time></div>
+            <div><span>Mimo</span><strong>HTML</strong><time datetime="2025">2025</time></div>
+            <div><span>Leveduca</span><strong>Informática Básica e Banco de Dados</strong><time datetime="2023">2023</time></div>
+            <div><span>Leveduca</span><strong>RH 4.0: Da cultura organizacional aos indicadores e dados</strong><time datetime="2023">2023</time></div>
           </div>
-        </div>
+        </section>
       </section>
 
+      <div class="section-band">
       <section class="skills section" id="competencias" aria-labelledby="skills-title">
         <div class="skills-intro reveal">
-          <p class="section-index">04 / Competências</p>
-          <h2 id="skills-title">Do navegador ao banco.<br />Do fluxo ao teste.</h2>
-          <p>Ferramentas organizadas pelo que já consigo demonstrar em código, documentação e projetos funcionais.</p>
+          <p class="section-index">03 / Competências</p>
+          <h2 id="skills-title">Conhecimentos técnicos</h2>
+          <p>Tecnologias e práticas que utilizo nos meus projetos. Os repositórios mostram como aplico cada conhecimento.</p>
         </div>
 
         <div class="skill-groups">
           <article class="skill-group reveal">
             <span class="skill-number">01</span>
-            <div><h3>Interfaces & produto</h3><p>Experiências responsivas, acessíveis e orientadas às regras reais do produto.</p></div>
+            <div><h3>Front-end</h3><p>Desenvolvimento de interfaces responsivas com componentes reutilizáveis e HTML semântico.</p></div>
             <ul><li>React 19</li><li>Next.js 16</li><li>TypeScript</li><li>JavaScript</li><li>HTML semântico</li><li>CSS responsivo</li><li>Vite</li></ul>
           </article>
           <article class="skill-group reveal">
             <span class="skill-number">02</span>
-            <div><h3>Back-end & dados</h3><p>APIs, autenticação, persistência e rotinas para colocar a interface em operação.</p></div>
+            <div><h3>Back-end e dados</h3><p>APIs, autenticação, persistência e rotinas para colocar a interface em operação.</p></div>
             <ul><li>Node.js</li><li>Python</li><li>FastAPI</li><li>SQLite</li><li>APIs REST</li><li>PHP</li><li>SMTP</li></ul>
           </article>
           <article class="skill-group reveal">
             <span class="skill-number">03</span>
-            <div><h3>Segurança & qualidade</h3><p>Decisões verificáveis para proteger acesso, dados e comportamento da aplicação.</p></div>
+            <div><h3>Segurança e testes</h3><p>Decisões verificáveis para proteger acesso, dados e comportamento da aplicação.</p></div>
             <ul><li>Scrypt</li><li>Sessões seguras</li><li>MFA</li><li>Playwright</li><li>Pytest</li><li>Vitest</li><li>Testes de integração</li></ul>
           </article>
           <article class="skill-group reveal">
             <span class="skill-number">04</span>
-            <div><h3>IA & recuperação</h3><p>Extração estruturada, busca híbrida e avaliação quantitativa de resultados.</p></div>
+            <div><h3>IA aplicada e busca</h3><p>Extração estruturada, busca híbrida e avaliação quantitativa de resultados.</p></div>
             <ul><li>LLMs</li><li>Prompt versionado</li><li>BM25</li><li>TF-IDF</li><li>RRF</li><li>Golden sets</li><li>Métricas F1/MRR</li></ul>
           </article>
         </div>
 
-        <p class="learning-line reveal"><span>Em evolução contínua</span> Docker · Azure · Spring Boot · Vue.js · arquitetura de software</p>
+        <p class="learning-line reveal"><span>Em estudo</span> Docker · Azure · Spring Boot · Vue.js · arquitetura de software</p>
       </section>
+
+      </div>
 
       <section class="about section" id="sobre" aria-labelledby="about-title">
         <div class="about-layout">
           <div class="about-heading reveal">
-            <p class="section-index">05 / Sobre</p>
-            <h2 id="about-title">Curiosidade técnica.<br /><em>Responsabilidade</em> na entrega.</h2>
+            <p class="section-index">04 / Sobre mim</p>
+            <h2 id="about-title">Um pouco sobre mim</h2>
           </div>
           <div class="about-copy reveal" data-delay="1">
             <p class="about-lead">
-              Minha entrada em tecnologia combina duas frentes: o contato diário com pessoas e a vontade de entender como sistemas completos funcionam.
+              Minha trajetória em tecnologia reúne experiência em suporte técnico, contato com clientes e interesse em entender como sistemas completos funcionam.
             </p>
             <p>
-              Em cada projeto, procuro atravessar as camadas. Quero compreender a necessidade, organizar o fluxo, construir uma interface clara, proteger os dados e deixar evidências de que a solução funciona. Foi assim no primeiro trabalho para cliente e é assim nos projetos que uso para ampliar meu repertório.
+              Minha experiência em atendimento e retenção me ensinou a ouvir, entender necessidades e lidar com problemas de forma clara. Nos projetos de software, aplico esse aprendizado ao organizar requisitos, implementar funcionalidades e documentar as decisões que tomo.
             </p>
             <p>
-              Hoje estudo Análise e Desenvolvimento de Sistemas e aprofundo minha atuação em desenvolvimento Full Stack, com interesse especial em back-end, segurança e inteligência artificial aplicada a problemas concretos.
+              Hoje atuo como desenvolvedor Full Stack freelancer, estudo Análise e Desenvolvimento de Sistemas e desenvolvo projetos com React, Next.js, Node.js e Python. Quero levar essa experiência para uma equipe, participar de projetos em conjunto e aprofundar meus conhecimentos em desenvolvimento Full Stack.
             </p>
             <div class="about-facts">
               <div><span>Base</span><strong>São Paulo, SP</strong></div>
@@ -436,11 +451,11 @@
       </section>
 
       <section class="contact section" id="contato" aria-labelledby="contact-title">
-        <div class="contact-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
-        <p class="section-index">06 / Contato</p>
+
+        <p class="section-index">05 / Contato</p>
         <div class="contact-content reveal">
-          <p>Tem um produto, oportunidade ou desafio em mente?</p>
-          <h2 id="contact-title">Vamos construir<br /><em>algo útil.</em></h2>
+          <p>Estou em busca de uma oportunidade como desenvolvedor Full Stack.</p>
+          <h2 id="contact-title">Vamos conversar sobre<br />uma oportunidade?</h2>
           <div class="contact-actions">
             <a class="button button-light" href="mailto:igor.silva.dev01@gmail.com">Enviar um e-mail <span aria-hidden="true">↗</span></a>
             <button class="copy-email" type="button" data-email="igor.silva.dev01@gmail.com">Copiar e-mail</button>
@@ -461,6 +476,6 @@
     </footer>
 
     <div class="toast" role="status" aria-live="polite">E-mail copiado.</div>
-    <script src="./script.js" defer></script>
+    <script src="./script.js?v=20261030-theme-complete" defer></script>
   </body>
 </html>

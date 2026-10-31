@@ -29,11 +29,11 @@ Também possui experiência profissional em atendimento e retenção no setor de
 
 ### Alares Internet
 
-- **Cargo público atual:** Assistente de Retenção
+- **Último cargo na Alares:** Assistente de Retenção (fevereiro/2024 a março/2026; conferido no currículo de outubro/2026)
 - **Local:** Ourinhos, São Paulo
 - **Setor:** Telecomunicações
 - **Competências transferíveis úteis para o portfólio:** atendimento ao cliente, comunicação, negociação, análise de necessidades, resolução de problemas e retenção.
-- **Pendente de confirmação:** datas de início, histórico de cargos e descrição exata das responsabilidades.
+- **Histórico conferido no currículo de outubro/2026:** Assistente Financeiro (maio/2023 a março/2024) e Suporte Técnico em Redes e Internet (fevereiro/2022 a maio/2023).
 
 ### Projeto real para cliente — plataforma de privacidade, governança e segurança
 
@@ -233,3 +233,31 @@ O portfólio deve priorizar a seguinte história:
 - Dados de projetos privados foram usados somente para reconhecer competências gerais já refletidas na versão pública anonimizada. Nenhum segredo, credencial, dado de cliente ou código privado foi reproduzido.
 - Afirmações quantitativas sobre projetos são provenientes da documentação mantida nos próprios repositórios e devem continuar acompanhadas das respectivas evidências.
 - Informações do LinkedIn são um retrato da data da coleta e devem ser revisadas antes da publicação definitiva.
+
+## Atualizações confirmadas pelo autor em 30 de outubro de 2026
+
+- **Atuação atual:** desenvolvedor Full Stack freelancer (autônomo). Data de início não informada.
+- **Formação técnica:** Manutenção de Computadores e Celulares — Cebrac, concluída em 2025.
+
+## Histórico profissional conferido no currículo de outubro de 2026
+
+Fonte editorial: `CV_Igor_Fernando_Programacao_Outubro_2026.pdf`, confrontado com as versões de suporte e geral do mesmo mês.
+
+- **Profissional autônomo / desenvolvedor Full Stack freelancer:** 2024–atual. Desenvolvimento e manutenção de aplicações e soluções técnicas com tecnologias web, Python, Java e APIs; entrega de plataforma de privacidade e governança para cliente, com autenticação, MFA, SQLite e adaptação para PHP/SQLite.
+- **Assistente de Retenção — Alares Internet:** fevereiro/2024–março/2026. Atendimento, negociação, análise de demandas, registro do histórico, acompanhamento das solicitações e comunicação com outras áreas.
+- **Assistente Financeiro — Alares Internet:** maio/2023–março/2024. Atendimento por canais digitais, análise de solicitações, sistemas internos e acompanhamento das demandas até a resolução.
+- **Suporte Técnico em Redes e Internet — Alares Internet:** fevereiro/2022–maio/2023. Diagnóstico e resolução de falhas de conectividade, orientação técnica, configuração de roteadores e equipamentos, fibra óptica e troubleshooting.
+
+Os períodos foram mantidos como constam nos currículos, incluindo a sobreposição entre os cargos financeiro e de retenção. O vínculo com a Alares não é atual.
+
+## Complementos e correções a partir de Profile.pdf
+
+Fonte: perfil profissional fornecido pelo autor em `Profile.pdf`, comparado aos currículos de outubro de 2026. Este bloco prevalece sobre as atribuições anteriores de empresa.
+
+- **Assistente Financeiro, maio/2023–março/2024:** empresa correta **Webby Internet**, não Alares. Cobranças, pagamentos, faturas, negociação e renegociação, acompanhamento de solicitações e histórico financeiro.
+- **Suporte ao Cliente — Redes e Internet, fevereiro/2022–maio/2023:** empresa correta **Webby Internet**, não Alares. Redes cabeadas, fibra óptica e rádio, configuração de roteadores e conversores, testes e ferramentas como UNM, Netnumens e ERP Voalle.
+- **Encarregado de Setor de Bazar — Grupo Muffato / Max Atacadista:** maio/2021–dezembro/2021. Gestão do setor, estoque, indicadores, coordenação de equipe, treinamentos, escalas, exposição e preços de mercadorias e atendimento ao cliente.
+- **Retenção — Alares Internet:** fevereiro/2024–março/2026. Atendimento ativo e receptivo, diagnóstico da insatisfação, negociação conforme políticas internas e apoio a demandas técnicas com acionamento de equipes de campo.
+- O perfil confirma o certificado **RH 4.0: Da cultura organizacional aos indicadores e dados**, cuja data de 2023 e emissor Leveduca já constam neste levantamento.
+- Formação Gran: setembro/2025–setembro/2028, em andamento, conforme perfil e currículos. Cebrac: maio/2024–maio/2025, conforme currículos e confirmação do autor.
+- A entrada de experiência sem nome com apenas agosto/2026 e a formação DIO de outubro/2026 sem título específico foram omitidas por falta de identificação suficiente. Mantido o início do trabalho autônomo em 2024, documentado nos currículos.

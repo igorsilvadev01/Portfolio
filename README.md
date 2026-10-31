@@ -4,11 +4,12 @@ Portfólio profissional de Igor Fernando Oliveira da Silva, desenvolvido como um
 
 ## Conteúdo
 
+- Identidade visual em azul e branco, com foto profissional colorida
 - Apresentação profissional e contatos
 - Estudos de caso dos principais projetos
-- Experiência e formação acadêmica
+- Experiência profissional em ordem cronológica, formação acadêmica e técnica em blocos separados
 - Certificações e competências técnicas
-- Tema claro/escuro e navegação responsiva
+- Temas claro e escuro completos, com preferência salva e navegação responsiva
 - SEO, dados estruturados e suporte a redução de movimento
 
 ## Executar localmente

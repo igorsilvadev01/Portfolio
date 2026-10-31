@@ -1,6 +1,7 @@
 # Local visual-QA artifacts
 .qa*/
 qa-*.png
+/portfolio-*.png
 
 # Local deployment bundles
 *.tar.gz
